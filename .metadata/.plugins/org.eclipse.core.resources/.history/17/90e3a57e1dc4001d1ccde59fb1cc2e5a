@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class Exercicio03 {
+	
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		String nome = "";
+		double media = 0.0;
+		boolean flag = true;
+		do {
+		System.out.println("Informe o seu nome");
+		nome = scan.next();
+		for (int i = 0; i < 4; i++) {
+			System.out.println("Informe a "+(i+1)+"º nota");
+			media += scan.nextDouble();
+		}
+		if((media/4)<6) {
+			System.out.println("O aluno "+nome+" reprovado, media "+(media/4));
+		}else {
+		   System.out.println("O aluno "+nome+" aprovado, media "+(media/4));
+		}
+		System.out.println("Deseja Fazer um novo calculo\n1-Sim\n2-Nao");
+		
+		if(scan.next().equalsIgnoreCase("nao")) {
+			flag=false;
+		}
+		
+		}while(flag);
+		scan.close();
+	}
+}

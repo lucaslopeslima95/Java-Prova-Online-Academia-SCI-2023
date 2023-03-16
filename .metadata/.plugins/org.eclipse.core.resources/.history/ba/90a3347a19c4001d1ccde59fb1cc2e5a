@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Exercicio03 {
+	
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		String nome = "";
+		boolean flag = true;
+		do {
+		System.out.println("Informe o seu nome");
+			
+			
+		}while(flag);
+		
+	}
+}

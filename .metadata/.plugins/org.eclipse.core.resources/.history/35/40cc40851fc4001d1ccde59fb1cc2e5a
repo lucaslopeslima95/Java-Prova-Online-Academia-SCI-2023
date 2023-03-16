@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Exercicio04 {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		int[] numeros = new int[5];
+		for (int i=0;i<4;i++) {
+			System.out.println("Infome o "+i+"º dos 5");
+			 numeros[i] =scan.nextInt();
+		}
+		System.out.println("O terceiro numero e "+numeros[2]);
+		scan.close();
+	}
+}

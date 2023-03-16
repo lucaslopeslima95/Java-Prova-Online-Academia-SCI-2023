@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Exercicio03 {
+	
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		String nome = "";
+		double media = 0.0;
+		boolean flag = true;
+		do {
+		System.out.println("Informe o seu nome");
+		nome = scan.next();
+		for (int i = 0; i < 4; i++) {
+			System.out.println("Informe a "+(i+1)+"º nota");
+			media += scan.nextDouble();
+		}
+		(media/4)>6.0  ? "O aluno "+nome+" reprovado, media "+(media/4)
+				:"O aluno "+nome+" aprovado, media "+(media/4);
+			
+		}while(flag);
+		
+	}
+}

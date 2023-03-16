@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Exercicio02 {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		int maiorNumero = Integer.MIN_VALUE;
+		int menorNumero = Integer.MAX_VALUE;
+
+		for (int i = 0; i < 5; i++) {
+			System.out.println("Informe o número " + (i+1) + " de 5");
+			int numeroInserido = scan.nextInt();
+			maiorNumero = Math.max(maiorNumero, numeroInserido);
+			menorNumero = Math.min(menorNumero, numeroInserido);
+		}
+
+		System.out.println("O maior número é " + maior + " e o menor número é " + menor);
+		scan.close();
+	}
+}

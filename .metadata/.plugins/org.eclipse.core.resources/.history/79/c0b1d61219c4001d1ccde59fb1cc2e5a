@@ -1,0 +1,13 @@
+
+public class Exercicio03 {
+	
+	public static void main(String[] args) {
+		
+		
+	}
+	
+	public double retornaMedia() {
+		return 0.0;
+	}
+
+}

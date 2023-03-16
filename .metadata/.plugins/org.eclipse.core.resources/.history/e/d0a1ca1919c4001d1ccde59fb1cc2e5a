@@ -1,0 +1,11 @@
+
+public class Exercicio03 {
+	
+	public static void main(String[] args) {
+		boolean flag = true;
+		do {
+			
+		}while();
+		
+	}
+}

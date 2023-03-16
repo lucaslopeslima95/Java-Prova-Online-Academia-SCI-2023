@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Exercicio05 {
+
+	public static void main(String[] args) {
+		double media = 0.0;
+		double nota = 0.0;
+		String[][] boletin = new String[6][3];
+		Scanner scan = new Scanner(System.in);
+		for (int i = 0; i < 3; i++) {
+			System.out.println("Informe o nome do aluno");
+			boletin[0][i] = scan.next();
+			for (int j = 1; j < 5; j++) {
+				System.out.println("Informe sua nota");
+				nota =  scan.nextDouble();
+				media += nota;
+				boletin[j][i] = String.valueOf(nota); 
+			}
+			boletin[5][i] = String.valueOf(media/4);
+		}
+		if(){
+			
+		}
+		scan.close();
+	}
+	
+}
