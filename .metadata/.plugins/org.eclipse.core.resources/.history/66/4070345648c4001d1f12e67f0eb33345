@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class DoisJava {
 	public static void main(String[] args) {
-		/*Solicitar 5 números, ao fim, imprimir o número maior e o número menor.*/
 		Scanner scan = new Scanner(System.in);
 		int maior = Integer.MIN_VALUE;
 		int menor = Integer.MAX_VALUE;

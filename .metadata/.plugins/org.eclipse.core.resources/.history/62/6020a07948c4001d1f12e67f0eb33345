@@ -3,9 +3,6 @@ import java.util.Scanner;
 public class UmJava {
 
 	public static void main(String[] args) {
-		/*Solicitar a inserção de 5 números, ao final,
-		  imprimir os números pares, números ímpares
-		  e a média geral desses números.*/
 		String pares = "", impares="";
 		double media = 0;
 		int numeroAtual = 0;
